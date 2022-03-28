@@ -75,6 +75,7 @@ void DFA::addAcceptanceState(const vector<string> &states, const vector<string> 
 
 void DFA::transition(const string &from, const string &to, const string &input) {
     nextState[from][input] = to;
+    //test
 }
 
 void DFA::printJson(const json &fname) const {
