@@ -11,12 +11,6 @@ NFA::NFA(const string &fname) {
 
 }
 
-DFA NFA::toDFA() {
-    DFA dfa;
-
-
-    return dfa;
-}
 
 void NFA::readJson(const string &fname) {
     //inlezen

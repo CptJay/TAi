@@ -10,28 +10,27 @@
 #include <fstream>
 #include <iomanip>
 #include "json.hpp"
+#include "State.h"
 
-using namespace std;
+
 using json = nlohmann::json;
 
+class State;
+class Transition;
 class DFA {
 private:
-    vector<string> states;
-    map<string, bool> stateAcceptanceDict;
-    map<string, map<string, string>> nextState;
-    vector<string> fstates;
-    vector<string> alfabet;
-    string startState;
+    std::string type;
+    std::vector<std::string> alphabet;
+    std::vector<State*> states;
+    std::vector<Transition*> transitions;
+    State* startState;
+
+    void setStartState();
 
 
 public:
-    DFA();
-    explicit DFA(const string &fname);
-    void addAcceptanceState(const vector<string>& states, const vector<string>& fstates);
-    void transition(const string &from, const string &to, const string &input);
-    void printJson(const json& fname) const;
-    bool accepts(const string &inP);
-    void readInJson(const string &fname);
+    DFA(const string &fname);
+    bool accepts(const string &word);
     void print() const;
 };
 

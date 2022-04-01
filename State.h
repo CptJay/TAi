@@ -5,11 +5,13 @@
 #ifndef CLION_STATE_H
 #define CLION_STATE_H
 #include <iostream>
-using namespace std;
+using std::string;
 
-class state {
+class State {
 public:
-    state(const string &name, bool accepting, bool starting);
+    State(const string &name, bool accepting, bool starting);
+
+    State();
 
     const string &getName() const;
 

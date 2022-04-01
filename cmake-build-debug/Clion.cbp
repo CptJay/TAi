@@ -94,13 +94,25 @@
 		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/NFA.h">
 			<Option target="Clion"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/Parser.cpp">
+			<Option target="Clion"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/Parser.h">
+			<Option target="Clion"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/State.cpp">
+			<Option target="Clion"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/State.h">
+			<Option target="Clion"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/Transition.cpp">
+			<Option target="Clion"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/Transition.h">
+			<Option target="Clion"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/main.cpp">
-			<Option target="Clion"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/state.cpp">
-			<Option target="Clion"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/state.h">
 			<Option target="Clion"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/CMakeLists.txt">

@@ -177,6 +177,87 @@ NFA.cpp.s:
 	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/NFA.cpp.s
 .PHONY : NFA.cpp.s
 
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
+State.o: State.cpp.o
+
+.PHONY : State.o
+
+# target to build an object file
+State.cpp.o:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/State.cpp.o
+.PHONY : State.cpp.o
+
+State.i: State.cpp.i
+
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/State.cpp.s
+.PHONY : State.cpp.s
+
+Transition.o: Transition.cpp.o
+
+.PHONY : Transition.o
+
+# target to build an object file
+Transition.cpp.o:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/Transition.cpp.o
+.PHONY : Transition.cpp.o
+
+Transition.i: Transition.cpp.i
+
+.PHONY : Transition.i
+
+# target to preprocess a source file
+Transition.cpp.i:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/Transition.cpp.i
+.PHONY : Transition.cpp.i
+
+Transition.s: Transition.cpp.s
+
+.PHONY : Transition.s
+
+# target to generate assembly for a file
+Transition.cpp.s:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/Transition.cpp.s
+.PHONY : Transition.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,33 +285,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-state.o: state.cpp.o
-
-.PHONY : state.o
-
-# target to build an object file
-state.cpp.o:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/state.cpp.o
-.PHONY : state.cpp.o
-
-state.i: state.cpp.i
-
-.PHONY : state.i
-
-# target to preprocess a source file
-state.cpp.i:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/state.cpp.i
-.PHONY : state.cpp.i
-
-state.s: state.cpp.s
-
-.PHONY : state.s
-
-# target to generate assembly for a file
-state.cpp.s:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/state.cpp.s
-.PHONY : state.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,12 +300,18 @@ help:
 	@echo "... NFA.o"
 	@echo "... NFA.i"
 	@echo "... NFA.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... State.o"
+	@echo "... State.i"
+	@echo "... State.s"
+	@echo "... Transition.o"
+	@echo "... Transition.i"
+	@echo "... Transition.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... state.o"
-	@echo "... state.i"
-	@echo "... state.s"
 .PHONY : help
 
 

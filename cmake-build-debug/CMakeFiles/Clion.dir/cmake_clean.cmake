@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Clion.dir/DFA.cpp.o"
   "CMakeFiles/Clion.dir/NFA.cpp.o"
+  "CMakeFiles/Clion.dir/Parser.cpp.o"
+  "CMakeFiles/Clion.dir/State.cpp.o"
+  "CMakeFiles/Clion.dir/Transition.cpp.o"
   "CMakeFiles/Clion.dir/main.cpp.o"
-  "CMakeFiles/Clion.dir/state.cpp.o"
   "Clion"
   "Clion.pdb"
 )

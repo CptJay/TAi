@@ -3,14 +3,31 @@
 
 CMakeFiles/Clion.dir/DFA.cpp.o: ../DFA.cpp
 CMakeFiles/Clion.dir/DFA.cpp.o: ../DFA.h
+CMakeFiles/Clion.dir/DFA.cpp.o: ../Parser.h
+CMakeFiles/Clion.dir/DFA.cpp.o: ../State.h
+CMakeFiles/Clion.dir/DFA.cpp.o: ../Transition.h
 CMakeFiles/Clion.dir/DFA.cpp.o: ../json.hpp
 
 CMakeFiles/Clion.dir/NFA.cpp.o: ../DFA.h
 CMakeFiles/Clion.dir/NFA.cpp.o: ../NFA.cpp
 CMakeFiles/Clion.dir/NFA.cpp.o: ../NFA.h
+CMakeFiles/Clion.dir/NFA.cpp.o: ../State.h
 CMakeFiles/Clion.dir/NFA.cpp.o: ../json.hpp
 
+CMakeFiles/Clion.dir/Parser.cpp.o: ../Parser.cpp
+CMakeFiles/Clion.dir/Parser.cpp.o: ../Parser.h
+CMakeFiles/Clion.dir/Parser.cpp.o: ../State.h
+CMakeFiles/Clion.dir/Parser.cpp.o: ../Transition.h
+CMakeFiles/Clion.dir/Parser.cpp.o: ../json.hpp
+
+CMakeFiles/Clion.dir/State.cpp.o: ../State.cpp
+CMakeFiles/Clion.dir/State.cpp.o: ../State.h
+
+CMakeFiles/Clion.dir/Transition.cpp.o: ../Transition.cpp
+CMakeFiles/Clion.dir/Transition.cpp.o: ../Transition.h
+
 CMakeFiles/Clion.dir/main.cpp.o: ../DFA.h
+CMakeFiles/Clion.dir/main.cpp.o: ../State.h
 CMakeFiles/Clion.dir/main.cpp.o: ../json.hpp
 CMakeFiles/Clion.dir/main.cpp.o: ../main.cpp
 

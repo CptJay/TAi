@@ -4,13 +4,30 @@
 CMakeFiles/Clion.dir/DFA.cpp.o
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.cpp
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.h
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/json.hpp
 CMakeFiles/Clion.dir/NFA.cpp.o
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/NFA.cpp
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/NFA.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/json.hpp
+CMakeFiles/Clion.dir/Parser.cpp.o
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.cpp
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/json.hpp
+CMakeFiles/Clion.dir/State.cpp.o
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.cpp
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
+CMakeFiles/Clion.dir/Transition.cpp.o
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.cpp
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.h
 CMakeFiles/Clion.dir/main.cpp.o
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
+ /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/json.hpp
  /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/main.cpp
