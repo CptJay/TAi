@@ -27,7 +27,6 @@ private:
     vector<string> alfabet;
     vector<string> states;
     map<string, map<string, vector<string>>> nextState;
-
     string startState;
     vector<string> fstates;
 };

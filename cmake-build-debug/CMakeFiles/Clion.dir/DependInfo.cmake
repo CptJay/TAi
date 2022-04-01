@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.cpp" "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles/Clion.dir/DFA.cpp.o"
   "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/NFA.cpp" "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles/Clion.dir/NFA.cpp.o"
   "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/main.cpp" "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles/Clion.dir/main.cpp.o"
+  "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/state.cpp" "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles/Clion.dir/state.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

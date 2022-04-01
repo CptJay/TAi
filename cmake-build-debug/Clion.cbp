@@ -97,6 +97,12 @@
 		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/main.cpp">
 			<Option target="Clion"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/state.cpp">
+			<Option target="Clion"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/state.h">
+			<Option target="Clion"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/User/Informatica/T&amp;A/Oefenignen/Clion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

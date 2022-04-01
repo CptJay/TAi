@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+state.o: state.cpp.o
+
+.PHONY : state.o
+
+# target to build an object file
+state.cpp.o:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/state.cpp.o
+.PHONY : state.cpp.o
+
+state.i: state.cpp.i
+
+.PHONY : state.i
+
+# target to preprocess a source file
+state.cpp.i:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/state.cpp.i
+.PHONY : state.cpp.i
+
+state.s: state.cpp.s
+
+.PHONY : state.s
+
+# target to generate assembly for a file
+state.cpp.s:
+	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/state.cpp.s
+.PHONY : state.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... state.o"
+	@echo "... state.i"
+	@echo "... state.s"
 .PHONY : help
 
 

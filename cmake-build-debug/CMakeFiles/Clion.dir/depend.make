@@ -5,6 +5,11 @@ CMakeFiles/Clion.dir/DFA.cpp.o: ../DFA.cpp
 CMakeFiles/Clion.dir/DFA.cpp.o: ../DFA.h
 CMakeFiles/Clion.dir/DFA.cpp.o: ../json.hpp
 
+CMakeFiles/Clion.dir/NFA.cpp.o: ../DFA.h
+CMakeFiles/Clion.dir/NFA.cpp.o: ../NFA.cpp
+CMakeFiles/Clion.dir/NFA.cpp.o: ../NFA.h
+CMakeFiles/Clion.dir/NFA.cpp.o: ../json.hpp
+
 CMakeFiles/Clion.dir/main.cpp.o: ../DFA.h
 CMakeFiles/Clion.dir/main.cpp.o: ../json.hpp
 CMakeFiles/Clion.dir/main.cpp.o: ../main.cpp

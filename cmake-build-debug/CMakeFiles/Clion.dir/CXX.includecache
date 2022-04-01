@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.cpp
-DFA.h
-/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
-iostream
-/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/iostream
-iomanip
--
-
 /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
 iostream
 -
@@ -361,4 +353,8 @@ limits
 -
 type_traits
 -
+
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/main.cpp
+DFA.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
 

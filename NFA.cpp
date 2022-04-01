@@ -41,5 +41,4 @@ void NFA::readJson(const string &fname) {
     for (auto el: j["transitions"]) {
         nextState[el["from"]][el["input"]].push_back(el["to"]);
     }
-
 }
