@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.cpp
+DFA.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
+iostream
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/iostream
+iomanip
+-
+Parser.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.h
+Transition.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.h
+
 /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/DFA.h
 iostream
 -
@@ -19,6 +31,34 @@ iomanip
 -
 json.hpp
 /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/json.hpp
+State.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
+
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.cpp
+Parser.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.h
+State.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
+Transition.h
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.h
+
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.h
+iostream
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/iostream
+fstream
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/fstream
+iomanip
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/iomanip
+json.hpp
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/json.hpp
+
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.h
+iostream
+-
+
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.h
+iostream
+/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/iostream
 
 /mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/json.hpp
 algorithm

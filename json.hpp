@@ -7971,13 +7971,13 @@ class lexer
 
     This function scans a string according to Sect. 6 of RFC 7159.
 
-    The function is realized with a deterministic finite state machine derived
-    from the grammar described in RFC 7159. Starting in state "init", the
-    input is read and used to determined the next state. Only state "done"
-    accepts the number. State "error" is a trap state to model errors. In the
+    The function is realized with a deterministic finite State machine derived
+    from the grammar described in RFC 7159. Starting in State "init", the
+    input is read and used to determined the next State. Only State "done"
+    accepts the number. State "error" is a trap State to model errors. In the
     table below, "anything" means any character but the ones listed before.
 
-    state    | 0        | 1-9      | e E      | +       | -       | .        | anything
+    State    | 0        | 1-9      | e E      | +       | -       | .        | anything
     ---------|----------|----------|----------|---------|---------|----------|-----------
     init     | zero     | any1     | [error]  | [error] | minus   | [error]  | [error]
     minus    | zero     | any1     | [error]  | [error] | [error] | [error]  | [error]
@@ -7989,8 +7989,8 @@ class lexer
     sign     | any2     | any2     | [error]  | [error] | [error] | [error]  | [error]
     any2     | any2     | any2     | done     | done    | done    | done     | done
 
-    The state machine is realized with one label per state (prefixed with
-    "scan_number_") and `goto` statements between them. The state machine
+    The State machine is realized with one label per State (prefixed with
+    "scan_number_") and `goto` statements between them. The State machine
     contains cycles, but any cycle can be left when EOF is read. Therefore,
     the function is guaranteed to terminate.
 
@@ -8015,7 +8015,7 @@ class lexer
         // changed if minus sign, decimal point or exponent is read
         token_type number_type = token_type::value_unsigned;
 
-        // state (init): we just found out we need to scan a number
+        // State (init): we just found out we need to scan a number
         switch (current)
         {
             case '-':
@@ -8050,7 +8050,7 @@ class lexer
         }
 
 scan_number_minus:
-        // state: we just parsed a leading minus sign
+        // State: we just parsed a leading minus sign
         number_type = token_type::value_integer;
         switch (get())
         {
@@ -8082,7 +8082,7 @@ scan_number_minus:
         }
 
 scan_number_zero:
-        // state: we just parse a zero (maybe with a leading minus sign)
+        // State: we just parse a zero (maybe with a leading minus sign)
         switch (get())
         {
             case '.':
@@ -8103,7 +8103,7 @@ scan_number_zero:
         }
 
 scan_number_any1:
-        // state: we just parsed a number 0-9 (maybe with a leading minus sign)
+        // State: we just parsed a number 0-9 (maybe with a leading minus sign)
         switch (get())
         {
             case '0':
@@ -8139,7 +8139,7 @@ scan_number_any1:
         }
 
 scan_number_decimal1:
-        // state: we just parsed a decimal point
+        // State: we just parsed a decimal point
         number_type = token_type::value_float;
         switch (get())
         {
@@ -9027,7 +9027,7 @@ class parser
                     }
 
                     // We are done with this array. Before we can parse a
-                    // new value, we need to evaluate the new state first.
+                    // new value, we need to evaluate the new State first.
                     // By setting skip_to_state_evaluation to false, we
                     // are effectively jumping to the beginning of this if.
                     assert(not states.empty());
@@ -9083,7 +9083,7 @@ class parser
                     }
 
                     // We are done with this object. Before we can parse a
-                    // new value, we need to evaluate the new state first.
+                    // new value, we need to evaluate the new State first.
                     // By setting skip_to_state_evaluation to false, we
                     // are effectively jumping to the beginning of this if.
                     assert(not states.empty());
@@ -14507,17 +14507,17 @@ class serializer
     @brief check whether a string is UTF-8 encoded
 
     The function checks each byte of a string whether it is UTF-8 encoded. The
-    result of the check is stored in the @a state parameter. The function must
-    be called initially with state 0 (accept). State 1 means the string must
+    result of the check is stored in the @a State parameter. The function must
+    be called initially with State 0 (accept). State 1 means the string must
     be rejected, because the current byte is not allowed. If the string is
-    completely processed, but the state is non-zero, the string ended
+    completely processed, but the State is non-zero, the string ended
     prematurely; that is, the last byte indicated more bytes should have
     followed.
 
-    @param[in,out] state  the state of the decoding
-    @param[in,out] codep  codepoint (valid only if resulting state is UTF8_ACCEPT)
+    @param[in,out] state  the State of the decoding
+    @param[in,out] codep  codepoint (valid only if resulting State is UTF8_ACCEPT)
     @param[in] byte       next byte to decode
-    @return               new state
+    @return               new State
 
     @note The function has been edited: a std::array is used.
 
@@ -17296,7 +17296,7 @@ class basic_json
     made.
 
     @warning Writing data to the pointee of the result yields an undefined
-    state.
+    State.
 
     @tparam PointerType pointer type; must be a pointer to @ref array_t, @ref
     object_t, @ref string_t, @ref boolean_t, @ref number_integer_t,
@@ -17390,7 +17390,7 @@ class basic_json
     are made.
 
     @warning Writing data to the referee of the result yields an undefined
-    state.
+    State.
 
     @tparam ReferenceType reference type; must be a reference to @ref array_t,
     @ref object_t, @ref string_t, @ref boolean_t, @ref number_integer_t, or

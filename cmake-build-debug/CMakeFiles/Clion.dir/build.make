@@ -96,25 +96,53 @@ CMakeFiles/Clion.dir/NFA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Clion.dir/NFA.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/NFA.cpp" -o CMakeFiles/Clion.dir/NFA.cpp.s
 
-CMakeFiles/Clion.dir/state.cpp.o: CMakeFiles/Clion.dir/flags.make
-CMakeFiles/Clion.dir/state.cpp.o: ../state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Clion.dir/state.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Clion.dir/state.cpp.o -c "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/state.cpp"
+CMakeFiles/Clion.dir/State.cpp.o: CMakeFiles/Clion.dir/flags.make
+CMakeFiles/Clion.dir/State.cpp.o: ../State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Clion.dir/State.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Clion.dir/State.cpp.o -c "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.cpp"
 
-CMakeFiles/Clion.dir/state.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Clion.dir/state.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/state.cpp" > CMakeFiles/Clion.dir/state.cpp.i
+CMakeFiles/Clion.dir/State.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Clion.dir/State.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.cpp" > CMakeFiles/Clion.dir/State.cpp.i
 
-CMakeFiles/Clion.dir/state.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Clion.dir/state.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/state.cpp" -o CMakeFiles/Clion.dir/state.cpp.s
+CMakeFiles/Clion.dir/State.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Clion.dir/State.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/State.cpp" -o CMakeFiles/Clion.dir/State.cpp.s
+
+CMakeFiles/Clion.dir/Parser.cpp.o: CMakeFiles/Clion.dir/flags.make
+CMakeFiles/Clion.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Clion.dir/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Clion.dir/Parser.cpp.o -c "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.cpp"
+
+CMakeFiles/Clion.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Clion.dir/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.cpp" > CMakeFiles/Clion.dir/Parser.cpp.i
+
+CMakeFiles/Clion.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Clion.dir/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Parser.cpp" -o CMakeFiles/Clion.dir/Parser.cpp.s
+
+CMakeFiles/Clion.dir/Transition.cpp.o: CMakeFiles/Clion.dir/flags.make
+CMakeFiles/Clion.dir/Transition.cpp.o: ../Transition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Clion.dir/Transition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Clion.dir/Transition.cpp.o -c "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.cpp"
+
+CMakeFiles/Clion.dir/Transition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Clion.dir/Transition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.cpp" > CMakeFiles/Clion.dir/Transition.cpp.i
+
+CMakeFiles/Clion.dir/Transition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Clion.dir/Transition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/Transition.cpp" -o CMakeFiles/Clion.dir/Transition.cpp.s
 
 # Object files for target Clion
 Clion_OBJECTS = \
 "CMakeFiles/Clion.dir/main.cpp.o" \
 "CMakeFiles/Clion.dir/DFA.cpp.o" \
 "CMakeFiles/Clion.dir/NFA.cpp.o" \
-"CMakeFiles/Clion.dir/state.cpp.o"
+"CMakeFiles/Clion.dir/State.cpp.o" \
+"CMakeFiles/Clion.dir/Parser.cpp.o" \
+"CMakeFiles/Clion.dir/Transition.cpp.o"
 
 # External object files for target Clion
 Clion_EXTERNAL_OBJECTS =
@@ -122,10 +150,12 @@ Clion_EXTERNAL_OBJECTS =
 Clion: CMakeFiles/Clion.dir/main.cpp.o
 Clion: CMakeFiles/Clion.dir/DFA.cpp.o
 Clion: CMakeFiles/Clion.dir/NFA.cpp.o
-Clion: CMakeFiles/Clion.dir/state.cpp.o
+Clion: CMakeFiles/Clion.dir/State.cpp.o
+Clion: CMakeFiles/Clion.dir/Parser.cpp.o
+Clion: CMakeFiles/Clion.dir/Transition.cpp.o
 Clion: CMakeFiles/Clion.dir/build.make
 Clion: CMakeFiles/Clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Clion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/User/Informatica/T&A/Oefenignen/Clion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Clion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Clion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
